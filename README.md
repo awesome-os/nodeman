@@ -1,0 +1,2 @@
+# nodeman
+Manage AwesomeOS Nodes. 
