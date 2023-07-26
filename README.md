@@ -39,6 +39,11 @@ handels any retry and failover logics and so on and so on. It gives us programma
 
 AwesomeOS is mainly Tooling for Quaternion DB to use it as a Underlaying OS and Filesystem. So it reduces the overall Stack and Dependencys needed for FullStack Projects into a single one. Which is highly Efficent as that reduces overall Coding overhead needed.
 
+## Good Habits
+If something has the ability to include something via eg a directory and pattern in a main config then use always that ability so all your software can interact with each other via that directory in a maintainable fashion as you can replace parts incremental without touching the other parts and without additional parsing logic that could fail. Also it is a good design as you can easy use templates to create the configuration parts.
+
+nginx, apache, php near any server software uses configuration directorys today where you can place indipendent files and reload the software to role updates out.
+
 
 
 
