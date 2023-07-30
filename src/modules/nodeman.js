@@ -17,7 +17,8 @@ export default const instructions = {
     },
 }
 
-// for (const stdio of new ReadableStream({start(stdin){stdin.enqueue("package otherpackage")}}).pipeThrough(new TransformStream(instructions["npm install"]))) {
+// for (const stdio of new ReadableStream({start(stdin){stdin.enqueue("package otherpackage")}}).pipeThrough(
+// new TransformStream(instructions["npm install"]))) {
   // const output = stdio.out || stdio.err;
   // ...
 // }
