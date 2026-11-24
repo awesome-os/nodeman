@@ -44,10 +44,9 @@ If something has the ability to include something via eg a directory and pattern
 
 nginx, apache, php near any server software uses configuration directorys today where you can place indipendent files and reload the software to role updates out.
 
+## Quick Start (Windows / Linux / macOS)
 
-
-
-
-
-
-
+```sh
+# Clone & enter repository (all platforms)
+git clone https://github.com/awesome-os/nodeman.git && cd nodeman
+```
