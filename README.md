@@ -50,3 +50,13 @@ nginx, apache, php near any server software uses configuration directorys today 
 # Clone & enter repository (all platforms)
 git clone https://github.com/awesome-os/nodeman.git && cd nodeman
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/nodeman@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/nodeman?from=repository://github.com/awesome-os/nodeman@main"
+```
