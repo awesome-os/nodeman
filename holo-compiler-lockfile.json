@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/nodeman",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/nodeman/nodeman-v0.1.0.tar.zst",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "7ffb0ccd3fd0d133f7f27122fac38c1249e07b57e03088524e373c6bfc726520a64d486e34c8c6a66f43a821e213cac75f429b5f9c43e72cfb3ba09ba38805cc",
+      "size": 3389,
+      "executable": false,
+      "blob": "v11/files/7f/7ffb0ccd3fd0d133f7f27122fac38c1249e07b57e03088524e373c6bfc726520a64d486e34c8c6a66f43a821e213cac75f429b5f9c43e72cfb3ba09ba38805cc",
+      "url": "https://github.com/awesome-os/nodeman/releases/download/v0.1.0/nodeman-v0.1.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/nodeman/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "6fe6be7724736f74b065b773a68dc53d0f89134ff27a991bdcc75e708e73b7598a8a211caeefe139d40f56716eb2528a071c9679deb107de9501ae961da91e93",
+      "size": 89,
+      "executable": false,
+      "blob": "v11/files/6f/6fe6be7724736f74b065b773a68dc53d0f89134ff27a991bdcc75e708e73b7598a8a211caeefe139d40f56716eb2528a071c9679deb107de9501ae961da91e93",
+      "url": "https://github.com/awesome-os/nodeman/releases/download/v0.1.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/nodeman/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "6380ee042be4963693f8596ff39ff85ec29ec108f6893382351bd956537a117d36ae06dbe09b6bc08136c6ffd2860283bd3b4ff2b7d6d76c582b7424b77a78a7",
+      "size": 153,
+      "executable": false,
+      "blob": "v11/files/63/6380ee042be4963693f8596ff39ff85ec29ec108f6893382351bd956537a117d36ae06dbe09b6bc08136c6ffd2860283bd3b4ff2b7d6d76c582b7424b77a78a7",
+      "url": "https://github.com/awesome-os/nodeman/releases/download/v0.1.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
